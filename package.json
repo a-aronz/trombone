@@ -1,0 +1,15 @@
+{
+	"name": "test_website",
+	"version": "0.1.0",
+	"descritpion": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "budo index.js:bundle.js",
+		"test": "node test.js"
+	},
+	"author": "Sarah Katherine Gage <sarahgage@gmail.com> (https://dontkry2.com)",
+	"license": "Gage",
+	"devDependencies": {
+		"budo": "^4.2.1"
+	}
+}

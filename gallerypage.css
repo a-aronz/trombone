@@ -1,0 +1,139 @@
+body {
+  font-family: "Courier New", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /*background: linear-gradient(rgba(0,0,50,0.5), rgba(0,0,50,0.5)), url(fallCO.jpg);
+  background-size: cover;
+  background-position: center;*/
+}
+
+.header {
+  margin-top: 20px;
+  padding: 0px 0;
+  transition: all 0s ease-in-out;
+  background: #FFFFFF; /*FFF8DC;*/
+  background-size: cover;
+  width: 100vw;
+  border-color: #FFFFFF;
+  border-style: double;
+  border-radius: 5px;
+}
+
+.header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+.header h1 {
+  font-weight: 600;
+  margin: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-shadow: #EDEDED 3px 2px 0;
+}
+
+.header nav {
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+      border-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
+.header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.row_nav {
+  margin: 0 0 40px;
+}
+
+.pics {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pics img {
+  padding-top: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  margin: 2px;
+  transition: all 0s;
+}
+
+#atw {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px;
+  transition: all 0s;
+}
+
+.pics img:hover{
+  transform: scale(1.25);
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.bottom-section {
+  background: #8FBC8F;
+  background-size: cover;
+  width: 100vw;
+  border-color: #FFEBCD ;
+  border-style: double;
+  border-radius: 5px;
+}
+
+
+footer {
+  font-size: 12px;
+  padding: 10px 0;
+  letter-spacing: 2px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}

@@ -49,7 +49,7 @@ header p {
   -moz-background-size: cover;
   -o-background-size: cover;
   color: #ffffff;
-  height: 100vh;
+  /*height: 100vh;*/
   width: 100%;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 

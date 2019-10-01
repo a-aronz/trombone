@@ -134,6 +134,57 @@ footer ul {
 }
 
 footer li img {
-  width: 32px;
-  height: 32px;
+  width: 90px;
+
 }
+
+#wrapper .img {
+        border-radius: 2px;
+        box-shadow: 0 0 5px #343436;
+        filter:brightness(1.1);
+        height: 200px;
+        margin: 5px;
+        /*width: 200px;*/
+    }
+#wrapper .img:target {
+        height: 500px;
+    }
+#wrapper .img:target+.close {
+        display: block;
+    }
+#wrapper .img:target+.close+.expand{
+        display: none;
+    }
+.close {
+        background-image: url(https://bit.ly/29QeT21);
+        background-repeat: no-repeat;
+        height: 32px;
+        width: 32px;
+        display: none;
+        position: relative;
+        /*
+        
+        left: 462px;
+        margin-top: -32px;  
+        position: relative;*/
+    }
+
+.expand{
+        bottom: 90px;
+        margin-left: -32px;
+        margin-right: 16px;
+        pointer-events: none;
+        position: relative;
+    }
+#wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+        width: 1000px;
+    }
+
+

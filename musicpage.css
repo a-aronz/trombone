@@ -116,10 +116,10 @@ section.pics img:hover{
 }
 
 .bottom-section {
-  background: #8FBC8F;
+  background: #D3D3D3;
   background-size: cover;
   width: 100vw;
-  border-color: #FFEBCD ;
+  border-color: #D3D3D3 ;
   border-style: double;
   border-radius: 5px;
 }

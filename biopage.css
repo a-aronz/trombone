@@ -58,6 +58,7 @@ footer .row {
 
 }
 
+
 .bio img {
   width: 5%;
 }
@@ -77,10 +78,18 @@ footer .row {
   margin: 0 0 40px;
 }
 
+.rotateimg {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  transform: rotate(90deg);
+}
+
 .bio-section p {
   font-size: 60px;
   font-weight: 200;
-  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 20px;
   color: #000000;
   letter-spacing: 1px;
   font-family: "Palatino", sans-serif;
@@ -139,10 +148,10 @@ section .row img {
 }
 
 .bottom-section {
-  background: #8FBC8F;
+  background: #D3D3D3;
   background-size: cover;
   width: 100vw;
-  border-color: #FFEBCD ;
+  border-color: #D3D3D3 ;
   border-style: double;
   border-radius: 5px;
 }

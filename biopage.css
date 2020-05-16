@@ -107,6 +107,7 @@ footer .row {
   /*image-orientation: from-image;*/
   transform: rotate(90deg);
   padding-top: 90px;
+  margin-top: 60px;
   padding-left: 30px;
 }
 

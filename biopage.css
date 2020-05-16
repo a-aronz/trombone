@@ -62,13 +62,13 @@ footer .row {
   margin: 0;
 }
 
-.bio_section {
-  padding-top: 60px;
+/*.bio_section {
+  padding-top: 160px;
 
-}
+}*/
 
 
-.bio img {
+/*.bio img {
   width: 5%;
 }
 
@@ -81,7 +81,7 @@ footer .row {
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 
-}
+}*/
 
 .row_nav {
   margin: 0 0 40px;
@@ -91,7 +91,7 @@ footer .row {
   position: absolute;
   top: 40px;
   right: 10px;
-  transform: rotate(90deg);
+  transform: rotate(180deg);
 }
 
 .bio-section p {
@@ -104,8 +104,10 @@ footer .row {
   font-family: "Palatino", sans-serif;
 }
 .bio-section img {
-  image-orientation: from-image;
+  /*image-orientation: from-image;*/
   transform: rotate(90deg);
+  padding-top: 90px;
+  padding-left: 30px;
 }
 
 .jumbotron h3 {
@@ -118,7 +120,7 @@ section .row img {
   width: 100%;
 }
 
-#bio-section{
+/*#bio-section{
   position: relative;
   .blurredbg {
     background: url('https://scontent-lga3-1.cdninstagram.com/vp/90747d59c574bd39a852b47d2efbe72a/5DF7FE1B/t51.2885-15/e35/37563342_274514793129456_4910704167015677952_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com ');
@@ -134,7 +136,7 @@ section .row img {
     position: absolute;
     z-index: 2;
   }
-}
+}*/
 
 .col-md-6 {
   margin: 0 0 30px;

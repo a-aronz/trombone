@@ -103,6 +103,10 @@ footer .row {
   letter-spacing: 1px;
   font-family: "Palatino", sans-serif;
 }
+.bio-section img {
+  image-orientation: from-image;
+  transform: rotate(90deg);
+}
 
 .jumbotron h3 {
   margin: 0 0 20px;

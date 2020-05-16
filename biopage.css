@@ -93,6 +93,17 @@ footer .row {
   right: 10px;
   transform: rotate(180deg);
 }
+.rotate90 {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
 
 .bio-section p {
   font-size: 60px;
